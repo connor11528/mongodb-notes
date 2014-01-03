@@ -83,7 +83,8 @@ Select by ObjectId:
 
 `db.unicorns.find({_id: ObjectId(”TheObjectId”)})`
 
-Advanced selector: $where -- allows us to supply javascript to execute on the server
+$where -- allows us to supply javascript to execute on the server, can be found in 
+advanced queries section: http://docs.mongodb.org/manual/reference/operator/#AdvancedQueries
 
 Selectors can be used with the find, remove, count and update commands.
 
@@ -231,6 +232,14 @@ about 2010 1 21 3
 index 2010 1 21 2
 index 2010 1 22 1
 ```
+
+See `map.js` and `reduce.js`
+
+MongoDB web interface: http://localhost:28017/ when running mongod
+
+Official MongoDB website: http://www.mongodb.com/
+
+MongoDB user group: https://groups.google.com/forum/#!forum/mongodb-user
 
 
 
